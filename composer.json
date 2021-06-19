@@ -1,0 +1,28 @@
+{
+    "name": "danlanhaiyu/thinkskyadmin",
+    "description": "thinkskyadmin",
+    "type": "true",
+    "license": "MIT",
+    "keywords": ["thinkphp","admin"],
+    "authors": [
+        {
+            "name": "danlanhaiyu",
+            "email": "314002552@qq.com",
+            "homepage": "http://www.uxin4.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "topthink/think-captcha": "^3.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Thinksky\\Admin\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
